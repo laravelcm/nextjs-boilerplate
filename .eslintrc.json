@@ -2,7 +2,8 @@
   "extends": [
     "next/core-web-vitals",
     "plugin:react/recommended",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "next"
   ],
   "env": {
     "node": true,
