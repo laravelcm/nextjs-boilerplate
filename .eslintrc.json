@@ -1,3 +1,25 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "commonjs": true
+  },
+  "plugins": ["react", "@next/eslint-plugin-next", "prettier"],
+  "rules": {
+    "no-console": "warn",
+    "camelcase": 0,
+    "react/react-in-jsx-scope": 0,
+    "linebreak-style": ["error", "unix"],
+    "prettier/prettier": [
+      "error",
+      { "endOfLine": "auto" },
+      { "usePrettierrc": true }
+    ]
+  }
 }

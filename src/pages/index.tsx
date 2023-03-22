@@ -10,7 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="antialiased">
-        <h1 className="text-5xl font-medium text-slate-900">Next App Boilerplate</h1>
+        <h1 className="text-5xl font-medium text-slate-900">
+          Next App Boilerplate
+        </h1>
       </main>
     </>
   )
