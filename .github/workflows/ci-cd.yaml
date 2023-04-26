@@ -13,14 +13,14 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: ./github/actions/setup-node-yarn
+      - name: Checkout
+        uses: actions/checkout@v3
       - run: /-
           yarn lint
       - name: Cypress
         uses: cypress-io/github-action@v5
         with:
-          start: yarn start-test
+          start: yarn start
           wait-on: 'http://localhost:3000'
           browser: chrome
       - name: Archive test screenshots
