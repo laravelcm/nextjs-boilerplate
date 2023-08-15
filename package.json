@@ -33,7 +33,7 @@
     "autoprefixer": "^10.4.15",
     "cypress": "^12.17.2",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-cypress": "^2.13.3",
+    "eslint-plugin-cypress": "^2.14.0",
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
