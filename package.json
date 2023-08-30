@@ -19,7 +19,7 @@
     "clsx": "^2.0.0",
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.13",
-    "lucide-react": "^0.265.0",
+    "lucide-react": "^0.269.0",
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
