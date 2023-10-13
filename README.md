@@ -2,11 +2,11 @@
 
 <p align="center">
   <a href="https://github.com/laravelcm/nextjs-boilerplate/actions">
-    <img src="https://github.com/laravelcm/nextjs-boilerplate/workflows/tests/badge.svg" alt="Build Status">
+    <img src="https://github.com/laravelcm/nextjs-boilerplate/actions/workflows/ci-cd.yaml/badge.svg" alt="Build Status">
   </a>
 </p>
 
-> This boilerplate is initially inspired by Laravel Next ([breeze-next](https://github.com/laravel/breeze-next)) but adds other elements and technologies to quickly implement a complete Next JS app with Laravel as API Provider.
+> This boilerplate is initially inspired by Laravel ([breeze-next](https://github.com/laravel/breeze-next)) but adds other elements and technologies to quickly implement a complete Next JS app with Laravel as API Provider.
 
 ## Introduction
 
