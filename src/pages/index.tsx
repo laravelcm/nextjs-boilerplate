@@ -1,6 +1,10 @@
 import Head from 'next/head'
+import { useAppSelector } from '@/hooks/useReduxHelpers'
+import { getAppName } from '@/redux/features/app/appSlice'
 
 export default function Home() {
+  const appName = useAppSelector(getAppName)
+
   return (
     <>
       <Head>
@@ -9,9 +13,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="antialiased">
-        <h1 className="text-5xl font-medium text-slate-900">
-          Next App Boilerplate
+      <main className="flex items-center justify-center min-h-screen antialiased">
+        <h1 className="text-5xl font-medium text-secondary-500">
+          {appName !== '' ? appName : 'NextJS Boilerplate'}
         </h1>
       </main>
     </>
