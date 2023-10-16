@@ -12,14 +12,23 @@
     "es6": true,
     "commonjs": true
   },
-  "plugins": ["react", "@next/eslint-plugin-next", "prettier", "cypress"],
+  "plugins": [
+    "react",
+    "@next/eslint-plugin-next",
+    "prettier",
+    "cypress",
+    "unused-imports"
+  ],
   "rules": {
+    "@typescript-eslint/no-unused-vars": "off",
     "brace-style": ["error", "1tbs", { "allowSingleLine": false }],
     "curly": "error",
     "camelcase": 0,
     "no-console": "warn",
     "linebreak-style": ["error", "unix"],
     "react/react-in-jsx-scope": 0,
-    "prettier/prettier": ["error", { "usePrettierrc": true }]
+    "prettier/prettier": ["error", { "usePrettierrc": true }],
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
   }
 }
