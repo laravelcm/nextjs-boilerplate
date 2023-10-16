@@ -1,7 +1,8 @@
-import { combineReducers } from 'redux'
+import { AnyAction, combineReducers } from 'redux'
 import appReducer from './features/app/appSlice'
+import { State } from '@/shared/types/global'
 
-const rootReducer = combineReducers({
+const rootReducer = combineReducers<State, AnyAction>({
   app: appReducer,
 })
 

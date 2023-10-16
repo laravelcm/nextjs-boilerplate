@@ -1,6 +1,6 @@
 {
   "name": "laravelcm.nextjs-boilerplate",
-  "version": "0.1.0",
+  "version": "1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,13 +11,11 @@
     "test:cy": "cypress open --config-file cypress.config.js"
   },
   "dependencies": {
-    "@next/font": "^13.5.4",
     "@reduxjs/toolkit": "^1.9.7",
     "@tanstack/react-query": "^5.0.0-rc.12",
     "axios": "^1.5.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
-    "eslint": "8.51.0",
     "eslint-config-next": "13.5.4",
     "lucide-react": "^0.269.0",
     "next": "13.5.4",
@@ -42,7 +40,7 @@
     "@typescript-eslint/eslint-plugin": "^6.7.5",
     "autoprefixer": "^10.4.15",
     "cypress": "^13.3.0",
-    "eslint": "8.47.0",
+    "eslint": "8.51.0",
     "eslint-config-next": "13.5.4",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-cypress": "^2.14.0",
