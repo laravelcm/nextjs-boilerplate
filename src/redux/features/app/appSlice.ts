@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 import type { RootState } from '@/redux/store'
-import { AppState } from '@/shared/types/global'
+import { AppState } from '@/shared/types/state'
 
 const initialState: AppState = {
   name: '',

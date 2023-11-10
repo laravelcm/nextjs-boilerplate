@@ -4,8 +4,8 @@ import { persistReducer, persistStore } from 'redux-persist'
 import type { PersistConfig } from 'redux-persist'
 
 import { NODE_ENV } from '@/shared/environment'
+import { State } from '@/shared/types/state'
 import rootReducer from './reducers'
-import { State } from '@/shared/types/global'
 
 const persistConfig: PersistConfig<CombinedState<State>> = {
   key: 'root',
