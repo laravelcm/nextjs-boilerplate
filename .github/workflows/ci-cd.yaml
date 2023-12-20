@@ -24,7 +24,7 @@ jobs:
           start: yarn start
           wait-on: 'http://localhost:3000'
       - name: Archive test screenshots
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: screenshots
           path: cypress/screenshots
