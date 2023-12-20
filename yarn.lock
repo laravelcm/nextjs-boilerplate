@@ -277,10 +277,10 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
-"@tanstack/eslint-plugin-query@^5.0.0-rc.5":
-  version "5.0.0-rc.5"
-  resolved "https://registry.yarnpkg.com/@tanstack/eslint-plugin-query/-/eslint-plugin-query-5.0.0-rc.5.tgz#194c76d082473df9f64b0f9efa24ea0948f68c58"
-  integrity sha512-MTwegTpPR4oPLnFhAtxDHncVqtuBCX0Xm+8BxxH3wDvpO9POFXSxcQSQ274TqehHtUezKrMV6TWbMnye1baITg==
+"@tanstack/eslint-plugin-query@^5.12.1":
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/@tanstack/eslint-plugin-query/-/eslint-plugin-query-5.12.1.tgz#4fd1804d32b4378471ad60eec1669745c41d0927"
+  integrity sha512-FuG/mN9cUO8KlT7KJzl8Yiw55uyXz1vzxXfoMnBbgiH8vk5WtUbEMdFeDF4ujgO+VSKR10uDdZ1+TIOpHhDUfQ==
   dependencies:
     "@typescript-eslint/utils" "^5.54.0"
 
