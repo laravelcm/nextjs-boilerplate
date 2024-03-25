@@ -39,7 +39,7 @@
     "@types/react-redux": "^7.1.33",
     "@typescript-eslint/eslint-plugin": "^6.16.0",
     "autoprefixer": "^10.4.15",
-    "cypress": "^13.6.3",
+    "cypress": "^13.7.1",
     "eslint": "8.56.0",
     "eslint-config-next": "14.0.4",
     "eslint-config-prettier": "^9.1.0",
