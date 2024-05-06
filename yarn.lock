@@ -2868,10 +2868,10 @@ lru-cache@^6.0.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.2.0.tgz#0bd445ca57363465900f4d1f9bd8db343a4d95c3"
   integrity sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==
 
-lucide-react@^0.314.0:
-  version "0.314.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.314.0.tgz#909b59df206f6da9dbe51589fe7c567e1c03565f"
-  integrity sha512-c2zOW7TOyKxPCaSs1og2lFdoI3SR4iii3yrZJU2Zpdc78nOw4fUmrcFNultaCiwZcr4CyiKdzjMdvKNlBBk+UQ==
+lucide-react@^0.378.0:
+  version "0.378.0"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.378.0.tgz#232acb99c6baedfa90959a2c0dd11327b058bde8"
+  integrity sha512-u6EPU8juLUk9ytRcyapkWI18epAv3RU+6+TC23ivjR0e+glWKBobFeSgRwOIJihzktILQuy6E0E80P2jVTDR5g==
 
 merge-stream@^2.0.0:
   version "2.0.0"
